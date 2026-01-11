@@ -1,13 +1,11 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount  ] =useState(0)
-
+  const a = 1;
+  console.log(a.toString());
   return (
     <>
       <h1>Hello world</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

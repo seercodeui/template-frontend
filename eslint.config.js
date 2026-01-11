@@ -42,7 +42,7 @@ export default [
       "jsx-quotes": ["error", "prefer-double"],
 
       // TS
-      "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
 
       // Import order
       "import/order": [
