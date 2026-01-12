@@ -13,14 +13,11 @@ export default {
   ],
 
   rules: {
-    // порядок свойств
     "order/properties-alphabetical-order": true,
-
-    // чтобы SCSS at-rules не ругались
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
-
-    // по желанию
     "selector-class-pattern": null,
+    "block-no-empty": true,
+    "selector-pseudo-class-no-unknown": true,
   },
 };
